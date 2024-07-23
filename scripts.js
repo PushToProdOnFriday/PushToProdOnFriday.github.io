@@ -5,7 +5,9 @@ document.getElementById('demoForm').addEventListener('submit', function(event) {
     let data = '';
 
     formData.forEach((value, key) => {
-        data += `${key}: ${value}\n`;
+        if (value !== ""){
+            data += `${key}: ${value}\n`;
+        }
     });
 
     alert('Form Data Submitted:\n' + data);
