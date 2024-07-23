@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    height: 100;
+    overflow: hidden;
+}
+
+.hidden-fields {
+    position: absolute;
+    top: 200rem;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+form {
+    height: 15rem;
+    overflow: hidden;
+}
+input {
+    margin-bottom: 15px;
+    padding: 5px;
+    width: 300px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
